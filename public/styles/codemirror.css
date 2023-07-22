@@ -1,0 +1,161 @@
+.CodeMirror {
+  font-size: 16px;
+  height: 100%;
+  background-color: #2c2c2c;
+}
+
+@media (max-width: 36em) {
+  .CodeMirror {
+    font-size: 12px;
+  }
+}
+
+.CodeMirror-gutters {
+  width: 40px;
+  border: 0px;
+  color: #a6a6a6;
+  font-size: 12px;
+  line-height: 24px;
+  background-color: #3e3e3e;
+  font-family: 'monospace' !important;
+}
+
+.CodeMirror-placeholder {
+  opacity: 0.6;
+  margin-left: 12px !important;
+  position: absolute !important;
+}
+
+.CodeMirror-code {
+  margin-top: 15px !important;
+}
+
+.CodeMirror-line {
+  padding-left: 15px !important;
+}
+
+.CodeMirror-line span[role='presentation'] {
+  color: #e7e7e7;
+}
+
+.CodeMirror-scroll {
+  color: white;
+}
+
+.CodeMirror-cursor {
+  border-color: #a6a6a6;
+  padding-left: 15px !important;
+}
+
+.CodeMirror-activeline-background {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.CodeMirror-matchingbracket {
+  color: #eb606b !important;
+}
+
+.CodeMirror-linenumber {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.cm-comment {
+  color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.cm-atom {
+  color: #e7e7e7 !important;
+}
+
+.cm-number {
+  color: #e7e7e7 !important;
+}
+
+.cm-property {
+  color: #e7e7e7 !important;
+}
+
+.cm-keyword,
+.cm-attribute {
+  color: #ff6666 !important;
+}
+
+.cm-string,
+.cm-string-2 {
+  color: #7aecd9 !important;
+}
+
+.cm-variable {
+  color: #e7e7e7 !important;
+}
+
+.cm-variable-2 {
+  color: #e7e7e7 !important;
+}
+
+.cm-def {
+  color: #f8f8f8 !important;
+}
+
+.cm-bracket {
+  color: #d6d5d4;
+}
+
+.cm-tag {
+  color: #fac863 !important;
+}
+
+.cm-link {
+  color: #fcd3cc !important;
+}
+
+.cm-error {
+  background: #8d1602 !important;
+  color: #f8f8f8 !important;
+}
+
+.CodeMirror-selected {
+  background: #3e3e3e !important;
+}
+
+.CodeMirror-simplescroll-horizontal div,
+.CodeMirror-simplescroll-vertical div {
+  cursor: pointer;
+  position: absolute;
+  border-radius: 2px;
+  background: #3e3e3e;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.CodeMirror-simplescroll-horizontal,
+.CodeMirror-simplescroll-vertical {
+  position: absolute;
+  z-index: 6;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.CodeMirror-simplescroll-horizontal {
+  bottom: 0;
+  left: 0;
+  height: 12px;
+}
+.CodeMirror-simplescroll-horizontal div {
+  bottom: 0;
+  height: 100%;
+}
+
+.CodeMirror-simplescroll-vertical {
+  right: 0;
+  top: 0;
+  width: 12px;
+}
+.CodeMirror-simplescroll-vertical div {
+  right: 0;
+  width: 100%;
+}
+
+.CodeMirror-scrollbar-filler {
+  background-color: #737373;
+}
