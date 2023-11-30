@@ -7,7 +7,7 @@ const GitHubIcon = styled(({ size, className }) => (
   <a
     target="_blank"
     rel="noopener noreferrer"
-    href="https://github.com/diegomura/react-pdf"
+    href="https://github.com/rtao-god/React-pdf-layout"
     className={className}
   >
     <Icon type="github" label="GitHub Repo" size={size || 30} />
