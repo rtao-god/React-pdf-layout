@@ -87,12 +87,6 @@ import ReactPDF from '@react-pdf/renderer';
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```
 
-## Contributors
-
-This project exists thanks to all the people who contribute. Looking to contribute? Please check our [[contribute]](https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md) document for more details about how to setup a development environment and submitting code.
-
-<a href="https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md"><img src="https://www.google.com/search?q=%D1%84%D0%BE%D1%82%D0%BE&sca_esv=587945461&tbm=isch&source=lnms&sa=X&ved=2ahUKEwilgoCl8feCAxXqFxAIHVc8DFQQ_AUoAXoECAEQAw&biw=1536&bih=715&dpr=1.25#imgrc=zKA8Ct0R5qPKGM" /><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
-
 ## Sponsors
 
 Thank you to all our sponsors! [[Become a sponsors](https://opencollective.com/react-pdf#sponsors)]
